@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import AddFeedback from "./components/Home";
 import AddFeedback from "./components/AddFeedback";
 import ViewFeedback from "./components/ViewFeedback";
 import Footer from "./components/Footer";
@@ -36,7 +37,8 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<AddFeedback />} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/addfeedback" element={<AddFeedback />} />
           <Route path="/viewfeedback" element={<ViewFeedback />} />
         </Routes>
         <Footer />

@@ -5,8 +5,9 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 const navItems = [
   {name:"Home", path:"/"},
-  { name: "Add Feedback", path: "/addfeedback" },
   { name: "View Feedbacks", path: "/viewfeedback" },
+    { name: "Add Feedback", path: "/addfeedback" },
+
 ];
 
 const Navbar = () => {

@@ -1,0 +1,18 @@
+/* App.css or Tailwind classes */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode .navbar,
+.dark-mode .card {
+  background-color: #333;
+}
+
+.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}

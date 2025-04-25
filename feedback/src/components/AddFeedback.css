@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(135deg, #f8e9f0, #dbeafe);
+  font-family: 'Poppins', sans-serif;
+}
+
+.dreamy-container {
+  background: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+  background-size: cover;
+}
+
+.form-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.dreamy-input {
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+.dreamy-input:focus {
+  outline: none;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(173, 216, 230, 0.7);
+}
+
+.dreamy-button {
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.dreamy-button:hover {
+  background: linear-gradient(135deg, #fbc2eb, #a18cd1);
+}

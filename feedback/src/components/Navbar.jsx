@@ -4,7 +4,8 @@ import { DarkModeContext } from "../App"; // Import DarkModeContext
 import { FaMoon, FaSun } from "react-icons/fa";
 
 const navItems = [
-  { name: "Add Feedback", path: "/" },
+  {name:"Home", path:"/"},
+  { name: "Add Feedback", path: "/addfeedback" },
   { name: "View Feedbacks", path: "/viewfeedback" },
 ];
 
